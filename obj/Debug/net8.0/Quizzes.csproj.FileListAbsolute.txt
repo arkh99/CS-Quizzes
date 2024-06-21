@@ -1,0 +1,15 @@
+C:\Users\arkh9\Desktop\update\CS-Quizzes\bin\Debug\net8.0\Quizzes.exe
+C:\Users\arkh9\Desktop\update\CS-Quizzes\bin\Debug\net8.0\Quizzes.deps.json
+C:\Users\arkh9\Desktop\update\CS-Quizzes\bin\Debug\net8.0\Quizzes.runtimeconfig.json
+C:\Users\arkh9\Desktop\update\CS-Quizzes\bin\Debug\net8.0\Quizzes.dll
+C:\Users\arkh9\Desktop\update\CS-Quizzes\bin\Debug\net8.0\Quizzes.pdb
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.AssemblyInfoInputs.cache
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.AssemblyInfo.cs
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.csproj.CoreCompileInputs.cache
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.sourcelink.json
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.dll
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\refint\Quizzes.dll
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.pdb
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\Quizzes.genruntimeconfig.cache
+C:\Users\arkh9\Desktop\update\CS-Quizzes\obj\Debug\net8.0\ref\Quizzes.dll

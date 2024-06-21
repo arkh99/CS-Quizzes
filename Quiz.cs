@@ -6,22 +6,23 @@ public class Quiz
   private List<Question> questions;
 
   // constructor
-  public Quiz (List<Question> questions)
+  public Quiz(List<Question> questions)
   {
     this.questions = questions;
   }
 
   // methods
-  public void AddQuestion (string text, string answer)
+  public void AddQuestion(string text, string answer, string category, string difficulty)
   {
-    if (questions.Exists(question => question.Text == text)) {
+    if (questions.Exists(question => question.Text == text))
+    {
       throw new Exception("This question has already been added to the quiz.");
     }
 
-    questions.Add(new Question(text, answer));
+    questions.Add(new Question(text, answer, category, difficulty));
   }
-  
-  public void Play () 
+
+  public void Play()
   {
     if (questions.Count == 0)
     {
@@ -33,23 +34,25 @@ public class Quiz
 
     foreach (var question in shuffled)
     {
-        string? response = null;
+      Console.WriteLine($"\nCategory: {question.Category} | Difficulty: {question.Difficulty}");
+      Console.WriteLine(question.Text);
 
-        while (string.IsNullOrWhiteSpace(response)) 
-        {
-          Console.WriteLine(question.Text);
-          response = Console.ReadLine();
-        }
-        
-        if (question.CheckAnswer(response))
-        {
-            Console.WriteLine("Correct!");
-            score += 1;
-        }
-        else
-        {
-            Console.WriteLine($"Wrong! The correct answer is: {question.Answer}");
-        }
+      string? response = Console.ReadLine();
+      while (string.IsNullOrWhiteSpace(response))
+      {
+        Console.WriteLine(question.Text);
+        response = Console.ReadLine();
+      }
+
+      if (question.CheckAnswer(response))
+      {
+        Console.WriteLine("Correct!");
+        score++;
+      }
+      else
+      {
+        Console.WriteLine($"Wrong! The correct answer is: {question.Answer}");
+      }
     }
 
     Console.WriteLine($"You got {score} out of {questions.Count} correct.");
